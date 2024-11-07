@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+ <head>
+  <meta charset="UTF-8" />
+  <title>Responsive Portfolio Website HTML CSS| CodingNepal</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head> 
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+              <div class="logo"><a href="#">Sohag Portfolio.</a></div>
+              <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="cancel-btn">
+                  <i class="fas fa-times"></i>
+                </div>
+              </ul> 
+              
+              <div class="media-icons">
+                <a href="https://www.facebook.com/sohag.sarkar.2879?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://www.linkedin.com/in/"><i class="fab fa-linkedin-in"></i></a> 
+         <a href="https://wa.me/qr/V6DZZXTORNH3F1"><i class="fab fa-whatsapp"></i></i></a> 
+         <a href="mailto:ali22205101426@diu.edu.bd"><i class="fab fa-google"></i></a> 
+                <a href="https://www.instagram.com/sohag___s/profilecard/?igsh=NzZzYXI3Znl1dmRq"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="menu-btn">
+              <i class="fas fa-bars"></i> 
+            </div>
+          </nav>
+        
+    </header>
+
+    <section class="about" id="about">
+        <div class="content">
+          <div class="title"><span>About Me</span></div>
+          <div class="about-details">
+            <div class="left">
+              <img src="images/resoh.png" alt="" />
+            </div>
+            <div class="right">
+              <div class="topic">Designing Is My Passion</div>
+              <p>
+                <p></br></p>
+
+                Hello, I am Sohag. My Hometown is Sirajganj. My father is a Businessman and my mother is a Housewife. I had finished my SSC from Ghorachora High School, Sirajganj and HSC from Sirajganj collectorate school & college, Sirajganj. Currently, I am a student at Daffodil International University in BSc in Computer Science and Engineering. I love to watch movies, play cricket, football and video games. I am a self-learner. I love to learn about new technologies and stay updated about them. I want to be a full stack developer and I am working very hard and passionately to achieve my dream. Hopefully I will fulfil my goals and reach my destination.
+
+
+                <p></br></p>
+              </p>
+              <div class="button">
+                <a href="sohag.cv.pdf">
+                  <button>Download CV</button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+   
+          <div class="navbar">
+            <div class="logo"><a href="#">Sohag Portfolio.</a></div>
+              <a href="index.html">Home | </a>
+              
+              <a href="about.html">About | </a>
+              
+              <a href="skills.html">Skills | </a>
+              
+              <a href="education.html">education | </a>
+              
+              <a href="contact.html">Contact</a>
+            <div class="media-icons">
+              <a href="https://www.facebook.com/sohag.sarkar.2879?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+              <a href="http://www.linkedin.com/in/"><i class="fab fa-linkedin-in"></i></a> 
+              <a href="https://wa.me/qr/V6DZZXTORNH3F1"><i class="fab fa-whatsapp"></i></i></a> 
+              <a href="mailto:ali22205101426@diu.edu.bd"><i class="fab fa-google"></i></a> 
+             <a href="https://www.instagram.com/sohag___s/profilecard/?igsh=NzZzYXI3Znl1dmRq"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        
+         
+          <div class="text">
+            <span>Created By <a href="#">Sohag</a> | &#169; 2024 All Rights Reserved</span>
+          </div>
+        </footer>
+      
+      
+        <script src="script.js"></script>
+      </section>
+
+    <style>
+        section {
+  padding-top: 40px;
+}
+
+body{
+  background-color: rgb(200, 216, 218);
+}
+section .content {
+  width: 80%;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+section .right{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.about .about-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  
+  
+}
+
+section .title span {
+  color: #072a8b;
+  font-size: 35px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+section .title span::before,
+section .title span::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #4070f4;
+  left: 0;
+  bottom: 0;
+}
+
+section .title span::after {
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about .about-details .left {
+  width: 45%;
+}
+
+.about .left img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.about-details .right {
+  width: 55%;
+}
+
+section .topic {
+  color: #0E2431;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about-details .right p {
+  text-align: justify;
+  color: #0E2431;
+}
+
+section .button {
+  margin: 16px 0;
+}
+
+section .button button {
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #4070f4;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+section .button button:hover {
+  border-color: #4070f4;
+  background-color: #fff;
+  color: #4070f4;
+}
+
+    </style>
+     
+</body>
+</html>
