@@ -8,6 +8,35 @@
   <!-- Fontawesome CDN Link -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    .skills{
+  background-color: rgb(200, 216, 218);
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.HTML {width: 90%; background-color: #04AA6D;}
+.CSS {width: 85%; background-color: #2196F3;}
+.JavaScript {width: 65%; background-color: #f44336;}
+.Python {width: 75%; background-color: #808080;}
+.C {width: 85%; background-color: #2196F3;}
+.MYSQL{width: 75%; background-color: #808080;}
+.Java {width: 70%; background-color: #d8f436;}
+.Adobe_Illustrator {width: 60%; background-color: purple;}
+  </style>
+  </style>
 </head> 
 
 <body>
@@ -49,7 +78,7 @@
     <div class="content">
       <div class="skills-details">
         <div class="text">
-          <div class="title"><h1>My Skills</h1></div>
+          <div class="title"><h1 style="text-align: left;">My Skills</h1></div>
           <p> </br> </p>
           <p>Hello,I am a dedicated Computer Science and Engineering student with a passion for Web development.
             As an aspiring Full Stack Developer, I have honed my skills in HTML, CSS, JavaScript, Python, C and C++,Java and database management systems.
@@ -60,39 +89,46 @@
           
         </div>
         <div class="boxes">
-          <div class="box">
-            <div class="topic">HTML</div>
-            <div class="per">90%</div>
+          <p>HTML</p>
+          <div class="container">
+            <!-- <div><p>HTML</p></div> -->
+            <div class="skills HTML">90%</div>
           </div>
-          <div class="box">
-            <div class="topic">CSS</div>
-            <div class="per">85%</div>
+          <p>CSS</p>
+          <div class="container">
+            <!-- <div><p>CSS</p></div> -->
+            <div class="skills CSS">85%</div>
           </div>
-          <div class="box">
-            <div class="topic">JavScript</div>
-            <div class="per">65%</div>
+          <p>JavaScript</p>
+          <div class="container">
+            <!-- <div><p>JavaScript</p></div> -->
+            <div class="skills JavaScript">65%</div>
           </div>
-          <div class="box">
-            <div class="topic">Python</div>
-            <div class="per">75%</div>
+          <p>Python</p>
+          <div class="container">
+            <!-- <div><p>Python</p></div> -->
+            <div class="skills Python">75%</div>
           </div>
-          <div class="box">
-            <div class="topic"> C and C++</div>
-            <div class="per">85%</div>
+          <p> C</p>
+          <div class="container">
+            <!-- <div><p> C and C++</p></div> -->
+            <div class="skills C">85%</div>
           </div>
-          <div class="box">
-            <div class="topic">MY SQL</div>
-            <div class="per">75%</div>
+          <p>MYSQL</p>
+          <div class="container">
+            <!-- <div><p>MY SQL</p></div> -->
+            <div class="skills MYSQL">75%</div>
           </div>
-          <div class="box">
-            <div class="topic">Java</div>
-            <div class="per">70%</div>
+          <p>Java</p>
+          <div class="container">
+            <!-- <div><p>Java</p></div> -->
+            <div class="skills Java">70%</div>
           </div>
-          <div class="box">
-            <div class="topic">Adobe Illustrator
-            </div>
-            <div class="per">60%</div>
+          <p>Adobe_Illustrator</p>
+          <div class="container">
+          <div class="skills Adobe_Illustrator">60%</div>
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -127,11 +163,7 @@
 
 
   <script src="script.js"></script>
-  <style>
-    .skills{
-  background-color: rgb(200, 216, 218);
-}
-  </style>
+  
 </body>
 
 </html>
