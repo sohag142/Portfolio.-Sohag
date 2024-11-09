@@ -39,7 +39,7 @@ nav {
 }
 
 nav.sticky {
-  background: #4070f4;
+  background: cadetblue;
   padding: 13px 0;
 }
 
@@ -309,7 +309,7 @@ nav.sticky .menu-btn {
 }
 
 footer {
-  background: rgb(75, 159, 170);
+  background: cadetblue;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
